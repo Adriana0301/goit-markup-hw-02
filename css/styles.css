@@ -12,7 +12,7 @@ body {
     background-color: #ffffff
 }
 
-nav .logo {
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -22,7 +22,7 @@ nav .logo {
     color: #4d5ae5;
 }
 
-nav .logo .logo-text {
+.logo .logotext {
     color: #2e2f42;
 }
 
@@ -30,10 +30,10 @@ nav .logo .logo-text {
     background: #2e2f42;
 }
 
-.header1 {
+.mainheader {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -52,20 +52,20 @@ button {
 
 
 button:hover, button:focus {
-    background-color: #404BBF;
+    background-color: #404bbf;
 }
 
-.header2 {
+.header {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
 }
 
-.header3 {
+.headers {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px; 
@@ -74,7 +74,7 @@ button:hover, button:focus {
     color: #2e2f42;
 }
 
-.small-text {
+.smalltext {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -89,18 +89,18 @@ button:hover, button:focus {
     color: #2e2f42;
 }
 
-.contact-link {
+.contactlink {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.contact-adrs:hover, .contact-adrs:focus {
+.contactadrs:hover, .contactadrs:focus {
     color: #404bbf;
 }
 
-.contact-adrs{
+.contactadrs{
     font-style: normal;
 }
 
