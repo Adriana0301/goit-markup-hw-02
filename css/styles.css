@@ -1,3 +1,6 @@
+:root {
+    --footer-text-color: #f4f4f4;
+}
 
 body {
     font-family: "Roboto", sans-serif;
@@ -6,12 +9,25 @@ body {
     line-height: 1.07143;
     letter-spacing: 0.02em;
     color: #434455;
+    background-color: #ffffff
+}
+
+nav .logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+nav .logo .logo-text {
+    color: #2e2f42;
 }
 
 .background {
     background: #2e2f42;
-    width: 1440px;
-    height: 600px;
 }
 
 .header1 {
@@ -24,15 +40,11 @@ body {
 }
 
 button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     color: #fff;
     cursor: pointer;
@@ -40,8 +52,7 @@ button {
 
 
 button:hover, button:focus {
-    background-color: #3c4bc7;
-    color: #fff;
+    background-color: #404BBF;
 }
 
 .header2 {
@@ -51,6 +62,7 @@ button:hover, button:focus {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .header3 {
@@ -77,13 +89,29 @@ button:hover, button:focus {
     color: #2e2f42;
 }
 
-.link {
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing:0.04em;
-    text-decoration-line: underline;
+.contact-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
-.link:hover, .link:focus {
-    color: #5a5a7f;
+.contact-adrs:hover, .contact-adrs:focus {
+    color: #404bbf;
 }
+
+.contact-adrs{
+    font-style: normal;
+}
+
+.rules {
+    background-color: #F4F4FD; 
+
+}
+
+
+
+
+
+
+
