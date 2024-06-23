@@ -108,11 +108,6 @@ nav .but:hover, .but:focus {
     font-style: normal;
 }
 
-.rules {
-    background-color: #f4f4fd; 
-
-}
-
 .rules ul li {
     background-color: #FFFFFF;
 }
@@ -180,4 +175,12 @@ nav ul li:first-child .but:focus {
 
 .team ul li {
     background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
 }
