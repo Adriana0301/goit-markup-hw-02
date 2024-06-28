@@ -12,6 +12,7 @@ body {
     background-color: #ffffff
 }
 
+/*---------HEADER---------*/
 nav .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -26,6 +27,42 @@ nav .logo .logotext {
     color: #2e2f42;
 }
 
+.but {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+
+nav .but:hover, .but:focus {
+    color: #404bbf;
+
+}
+
+.link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.link:hover, .link:focus {
+    color: #404bbf;
+}
+
+.contactadrs:hover, .contactadrs:focus {
+    color: #404bbf;
+}
+
+.contactadrs{
+    font-style: normal;
+}
+
+/*------------------*/
+
+/*---------HERO---------*/
 .background {
     background: #2e2f42;
 }
@@ -81,53 +118,21 @@ button:hover, button:focus {
     color: #434455;   
 }
 
-.but {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+/*------------------*/
 
-}
-
-nav .but:hover, .but:focus {
-    color: #404bbf;
-}
-.contactlink {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.contactadrs:hover, .contactadrs:focus {
-    color: #404bbf;
-}
-
-.contactadrs{
-    font-style: normal;
-}
+/*---------Rules---------*/
 
 .rules ul li {
     background-color: #FFFFFF;
 }
 
-.link {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-decoration-line: underline;
-    color: #434455;
-}
+/*------------------*/
 
-.link:hover, .link:focus {
-    color: #404bbf;
-}
+/*---------Portfolio---------*/
 
 .portfolioitem {
     background-color: #ffffff;
 }
-
 
 .name {
     font-weight: 500;
@@ -138,11 +143,15 @@ nav .but:hover, .but:focus {
 
 }
 
+/*-------------------------*/
+
+/*---------Footer---------*/
+
 .footer {
     background-color:#2e2f42;
 
 }
-
+ 
 .footer .footerlogo {
     font-family: "Raleway", sans-serif; 
     font-weight: 700;
@@ -164,11 +173,13 @@ nav .but:hover, .but:focus {
     letter-spacing: 0.02em;
 }
 
+/*------------------------------*/
 nav ul li:first-child .but:hover,
 nav ul li:first-child .but:focus {
     color: #404bbf;
 }
 
+/*------------Teams-------------*/
 .team {
     background-color: #f4f4fd;
 }
@@ -176,6 +187,8 @@ nav ul li:first-child .but:focus {
 .team ul li {
     background-color: #FFFFFF;
 }
+
+/*-------------------------------*/
 
 a {
     text-decoration: none;
